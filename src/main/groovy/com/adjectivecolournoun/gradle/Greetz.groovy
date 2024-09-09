@@ -29,7 +29,7 @@ class Greetz {
         println y.message
     }
 
-    public static void performComplexOperation() {
+    public static String performComplexOperation() {
         int result = 0
         for (int i = 0; i < 10; i++) {
             result += i
@@ -40,6 +40,7 @@ class Greetz {
             }
         }
         println "Result of complex operation: $result"
+        return "Result of complex operation: $result"
     }
 }
 

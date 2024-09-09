@@ -17,7 +17,7 @@ archivesBaseName = 'gradle-example'
 
 test {
     finalizedBy jacocoTestReport // report is always generated after tests run
-    useJUnit()
+    useJUnitPlatform()
 }
 jacocoTestReport {
     dependsOn test // tests are required to run before generating the report

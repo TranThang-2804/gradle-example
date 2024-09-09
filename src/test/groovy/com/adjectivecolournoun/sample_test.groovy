@@ -17,7 +17,7 @@ public class GreetzTest {
     @Test
     void testPerformComplexOperation() {
         // Assuming the complex operation result should be 45
-        int result = greetz.performComplexOperation();
-        assertEquals(45, result, "The result of the complex operation should be 45.");
+        String result = greetz.performComplexOperation();
+        assertEquals("Result of complex operation: 45", result, "The result of the complex operation should be 45.");
     }
 }
